@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from "react";
 import Blog from "./Blog";
 import "./BlogSite.css";
+import Bookmarked from "./Bookmarked";
+import SpentTime from "./SpentTime";
 
 const BlogSite = () => {
   const [blogData, setBlogData] = useState([]);
@@ -20,7 +22,10 @@ const BlogSite = () => {
             <Blog key={singleData.id} singleData={singleData}></Blog>
           ))}
       </div>
-      <div className="space-y-4"></div>
+      <div className="space-y-4">
+        <SpentTime></SpentTime>
+        <Bookmarked></Bookmarked>
+      </div>
     </div>
   );
 };
