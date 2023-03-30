@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = ({singleData}) => {
+const Blog = ({singleData, handleSpentTime}) => {
   const {authorName, blogTitle, images, readTime, publishDate} = singleData;
   return (
     <div className="border pb-4 rounded overflow-hidden">
@@ -34,7 +34,10 @@ const Blog = ({singleData}) => {
         </div>
       </div>
       <h1 className="ms-4 my-4 font-bold text-3xl">{blogTitle}</h1>
-      <a href="#!" className="block ms-4 text-blue-800">
+      <a
+        href="#!"
+        className="block ms-4 text-blue-800"
+        onClick={() => handleSpentTime(parseInt(readTime.slice(0, 2).trim()))}>
         Mark as read
       </a>
     </div>

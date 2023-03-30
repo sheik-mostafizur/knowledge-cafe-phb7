@@ -1,10 +1,10 @@
 import React from "react";
 
-const SpentTime = () => {
+const SpentTime = ({spendingTime}) => {
   return (
     <div className="border p-6 bg-blue-50 border-blue-700 rounded">
       <h2 className="font-bold text-2xl text-blue-800">
-        Spent time on read : 000 min
+        Spent time on read : {spendingTime} min
       </h2>
     </div>
   );
