@@ -7,51 +7,51 @@
       "blogCoverImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191216192618/7-Tips-To-Write-Clean-And-Better-Code-in-2020.png",
       "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
     },
-    "readTime": "10 minutes",
+    "readTime": "10 min",
     "publishDate": "2022-01-01"
+  },
+  {
+    "id": 5,
+    "authorName": "Emily Lee",
+    "blogTitle": "10 Best Practices for Writing Accessible Web Content",
+    "images": {
+      "blogCoverImage": "https://neilpatel.com/wp-content/uploads/2022/12/Net-New-10-Best-Practices-to-Follow-for-a-Truly-Accessible-Website.png",
+      "authorImage": "https://images.unsplash.com/photo-1565464027194-7957a2295fb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    "readTime": "9 min",
+    "publishDate": "2022-01-15"
+  },
+  {
+    "id": 4,
+    "authorName": "Mark Thompson",
+    "blogTitle": "How to Optimize Your Website's Page Load Speed",
+    "images": {
+      "blogCoverImage": "https://mllj2j8xvfl0.i.optimole.com/cb:pJlS~36fbd/w:auto/h:auto/q:90/f:avif/https://themeisle.com/blog/wp-content/uploads/2019/03/website-speed-optimization.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    "readTime": "7 min",
+    "publishDate": "2022-02-20"
   },
   {
     "id": 2,
     "authorName": "Jane Doe",
     "blogTitle": "The Benefits of Meditation",
     "images": {
-      "blogCoverImage": "https://example.com/images/meditation-benefits-cover.jpg",
-      "authorImage": "https://unsplash.com/photos/WNoLnJo7tS8"
+      "blogCoverImage": "https://examstudyexpert.com/wp-content/uploads/2022/11/Benefits-of-meditation-featured-image.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1509868918748-a554ad25f858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
     },
-    "readTime": "5 minutes",
+    "readTime": "5 min",
     "publishDate": "2022-02-15"
   },
   {
-    "id": 1,
+    "id": 3,
     "authorName": "Sarah Johnson",
     "blogTitle": "The Benefits of Using CSS Grid for Layouts",
     "images": {
-      "blogCoverImage": "https://example.com/images/css-grid-layout-cover.jpg",
-      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+      "blogCoverImage": "https://cdn.mos.cms.futurecdn.net/7vpUPMSbPfhxiUNYj5XnE6.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
     },
-    "readTime": "5 minutes",
+    "readTime": "5 min",
     "publishDate": "2022-03-01"
-  },
-  {
-    "id": 2,
-    "authorName": "Mark Thompson",
-    "blogTitle": "How to Optimize Your Website's Page Load Speed",
-    "images": {
-      "blogCoverImage": "https://example.com/images/page-load-speed-cover.jpg",
-      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-    },
-    "readTime": "7 minutes",
-    "publishDate": "2022-02-20"
-  },
-  {
-    "id": 3,
-    "authorName": "Emily Lee",
-    "blogTitle": "10 Best Practices for Writing Accessible Web Content",
-    "images": {
-      "blogCoverImage": "https://example.com/images/accessible-web-content-cover.jpg",
-      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-    },
-    "readTime": "9 minutes",
-    "publishDate": "2022-01-15"
   }
 ]
