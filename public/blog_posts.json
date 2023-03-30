@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "authorName": "John Smith",
+    "blogTitle": "10 Tips for Writing Better Code",
+    "images": {
+      "blogCoverImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191216192618/7-Tips-To-Write-Clean-And-Better-Code-in-2020.png",
+      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    "readTime": "10 minutes",
+    "publishDate": "2022-01-01"
+  },
+  {
+    "id": 2,
+    "authorName": "Jane Doe",
+    "blogTitle": "The Benefits of Meditation",
+    "images": {
+      "blogCoverImage": "https://example.com/images/meditation-benefits-cover.jpg",
+      "authorImage": "https://unsplash.com/photos/WNoLnJo7tS8"
+    },
+    "readTime": "5 minutes",
+    "publishDate": "2022-02-15"
+  },
+  {
+    "id": 1,
+    "authorName": "Sarah Johnson",
+    "blogTitle": "The Benefits of Using CSS Grid for Layouts",
+    "images": {
+      "blogCoverImage": "https://example.com/images/css-grid-layout-cover.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    "readTime": "5 minutes",
+    "publishDate": "2022-03-01"
+  },
+  {
+    "id": 2,
+    "authorName": "Mark Thompson",
+    "blogTitle": "How to Optimize Your Website's Page Load Speed",
+    "images": {
+      "blogCoverImage": "https://example.com/images/page-load-speed-cover.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    "readTime": "7 minutes",
+    "publishDate": "2022-02-20"
+  },
+  {
+    "id": 3,
+    "authorName": "Emily Lee",
+    "blogTitle": "10 Best Practices for Writing Accessible Web Content",
+    "images": {
+      "blogCoverImage": "https://example.com/images/accessible-web-content-cover.jpg",
+      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    "readTime": "9 minutes",
+    "publishDate": "2022-01-15"
+  }
+]
