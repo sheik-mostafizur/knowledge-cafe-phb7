@@ -1,7 +1,7 @@
 import React from "react";
 
-const Blog = ({singleData, handleSpentTime}) => {
-  const {authorName, blogTitle, images, readTime, publishDate} = singleData;
+const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
+  const {id, authorName, blogTitle, images, readTime, publishDate} = singleData;
   return (
     <div className="border pb-4 rounded overflow-hidden">
       <div>
@@ -25,6 +25,7 @@ const Blog = ({singleData, handleSpentTime}) => {
           {readTime}
           <div className="w-4">
             <svg
+            onClick={()=>handleBookMark({id, blogTitle})}
               className="cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 384 512">
@@ -45,17 +46,3 @@ const Blog = ({singleData, handleSpentTime}) => {
 };
 
 export default Blog;
-
-/*
-  {
-    "id": 5,
-    "authorName": "Emily Lee",
-    "blogTitle": "10 Best Practices for Writing Accessible Web Content",
-    "images": {
-      "blogCoverImage": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191216192618/7-Tips-To-Write-Clean-And-Better-Code-in-2020.png",
-      "authorImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-    },
-    "readTime": "9 minutes",
-    "publishDate": "2022-01-15"
-  }
-*/
