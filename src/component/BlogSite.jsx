@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import Swal from "sweetalert2/dist/sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 
-import Blog from "./Blog";
+import Card from "./Card";
 import Bookmarked from "./Bookmarked";
 import PersonalBlog from "./PersonalBlog";
 import SpentTime from "./SpentTime";
@@ -43,13 +43,13 @@ const BlogSite = () => {
       <div className="px-2 md:col-span-2 space-y-8">
         {blogData &&
           blogData.map((singleData) => (
-            <Blog
+            <Card
               key={singleData.id}
               singleData={singleData}
               handleSpentTime={handleSpentTime}
-              handleBookMark={handleBookMark}></Blog>
+              handleBookMark={handleBookMark}></Card>
           ))}
-          <PersonalBlog></PersonalBlog>
+        <PersonalBlog></PersonalBlog>
       </div>
       <div className="space-y-4">
         <SpentTime spendingTime={spendingTime}></SpentTime>

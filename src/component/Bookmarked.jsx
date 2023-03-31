@@ -8,8 +8,8 @@ const Bookmarked = ({bookMark}) => {
       </h2>
 
       {bookMark &&
-        bookMark.map((element) => (
-          <h3 key={element.id} className="rounded bg-white p-4 font-bold">
+        bookMark.map((element, index) => (
+          <h3 key={index} className="rounded bg-white p-4 font-bold">
             {element.blogTitle}
           </h3>
         ))}

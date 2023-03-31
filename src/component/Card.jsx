@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
+const Card = ({singleData, handleSpentTime, handleBookMark}) => {
   const {id, authorName, blogTitle, images, readTime, publishDate} = singleData;
   return (
     <div className="border pb-4 rounded overflow-hidden">
@@ -25,7 +25,7 @@ const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
           {readTime}
           <div className="w-4">
             <svg
-            onClick={()=>handleBookMark({id, blogTitle})}
+              onClick={() => handleBookMark({id, blogTitle})}
               className="cursor-pointer"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 384 512">
@@ -45,4 +45,4 @@ const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
   );
 };
 
-export default Blog;
+export default Card;
