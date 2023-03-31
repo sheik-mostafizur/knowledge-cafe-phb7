@@ -13,11 +13,11 @@ const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
             <img
               src={images.authorImage}
               alt={authorName}
-              className="w-16 h-16 object-cover rounded-full"
+              className="w-12 h-12 md:w-16 md:h-16 object-cover rounded-full"
             />
           </div>
           <div>
-            <h3 className="font-bold text-2xl">{authorName}</h3>
+            <h3 className="font-bold text-xl md:text-2xl">{authorName}</h3>
             <p>{publishDate}</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Blog = ({singleData, handleSpentTime, handleBookMark}) => {
           </div>
         </div>
       </div>
-      <h1 className="ms-4 my-4 font-bold text-3xl">{blogTitle}</h1>
+      <h1 className="ms-4 my-4 font-bold text-2xl md:text-3xl">{blogTitle}</h1>
       <a
         href="#!"
         className="block ms-4 text-blue-800"
