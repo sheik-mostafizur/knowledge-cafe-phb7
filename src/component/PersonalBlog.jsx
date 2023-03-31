@@ -7,7 +7,35 @@ const PersonalBlog = () => {
       name: "Sheik Mostafizur",
       authorImage: "https://i.postimg.cc/BQHBR5KW/sheik-mostafiozur-3d.png",
       title: "Props vs state",
-      description: "Description",
+      description:
+        "In React, 'props' and state are two concepts used for managing and updating data in a component. Props (short for properties) are read-only data that are passed data from children (send as attribute and value) to parent (receive as a parameter) component, props represent an object. On the other hand, 'state' is mutable data that is managed within a component. A component's state can change over time; whenever it changes, the component re-renders. State can be updated using the 'setState' method.",
+      publishDate: "2023-03-31",
+    },
+    {
+      id: 2,
+      name: "Sheik Mostafizur",
+      authorImage: "https://i.postimg.cc/BQHBR5KW/sheik-mostafiozur-3d.png",
+      title: "How does useState work?",
+      description:
+        "In React, 'useState' is a hook that allows you to add state to a functional component. It works by returning an array with two values: the current state value and a function to update that value. The first element of the array is the current state value, and the second element is a function that can be called to update the state value.",
+      publishDate: "2023-03-31",
+    },
+    {
+      id: 3,
+      name: "Sheik Mostafizur",
+      authorImage: "https://i.postimg.cc/BQHBR5KW/sheik-mostafiozur-3d.png",
+      title: "Purpose of useEffect other than fetching data.",
+      description:
+        "While 'useEffect' is commonly used for fetching data in React, it has other purposes as well. 'useEffect' is a hook that allows you to perform side effects in functional components, such as modifying the DOM, subscribing to events, or setting up timers. 'useEffect'takes two arguments. The first argument passed to useEffect is a function called effect and the second argument (optional) is an array of dependencies.",
+      publishDate: "2023-03-31",
+    },
+    {
+      id: 4,
+      name: "Sheik Mostafizur",
+      authorImage: "https://i.postimg.cc/BQHBR5KW/sheik-mostafiozur-3d.png",
+      title: "How Does React work?",
+      description:
+        "React is a JavaScript library for building user interfaces. Here are some steps. For example: JSX, Virtual DOM, Components, Data Flow, Lifecycle Methods etc. React gives us a single-page website that does not need to be refreshed repeatedly.",
       publishDate: "2023-03-31",
     },
   ];

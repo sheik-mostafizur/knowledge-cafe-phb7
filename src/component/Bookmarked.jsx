@@ -2,7 +2,7 @@ import React from "react";
 
 const Bookmarked = ({bookMark}) => {
   return (
-    <div className="bg-gray-200 p-6 rounded space-y-4 md:sticky md:top-28">
+    <div className="bg-gray-200 p-6 rounded space-y-4 md:sticky md:top-32">
       <h2 className="font-bold text-2xl">
         Bookmarked Blogs : {bookMark.length}
       </h2>
