@@ -5,6 +5,7 @@ import "sweetalert2/dist/sweetalert2.min.css";
 
 import Blog from "./Blog";
 import Bookmarked from "./Bookmarked";
+import PersonalBlog from "./PersonalBlog";
 import SpentTime from "./SpentTime";
 
 const BlogSite = () => {
@@ -28,14 +29,13 @@ const BlogSite = () => {
   const handleBookMark = (bookmarked) => {
     const isExit = bookMark.find((element) => element.id === bookmarked.id);
     if (isExit) {
-      return Swal.fire({
+      Swal.fire({
         icon: "error",
         title: "Oops...",
         text: "You Have Already Bookmarked This Blog!",
       });
-    } else {
-      setBookMark([...bookMark, bookmarked]);
     }
+    setBookMark([...bookMark, bookmarked]);
   };
 
   return (
@@ -49,6 +49,7 @@ const BlogSite = () => {
               handleSpentTime={handleSpentTime}
               handleBookMark={handleBookMark}></Blog>
           ))}
+          <PersonalBlog></PersonalBlog>
       </div>
       <div className="space-y-4">
         <SpentTime spendingTime={spendingTime}></SpentTime>
