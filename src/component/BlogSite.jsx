@@ -1,4 +1,10 @@
 import React, {useEffect, useState} from "react";
+import {ToastContainer, toast} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import Swal from "sweetalert2/dist/sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
+
 import Blog from "./Blog";
 import Bookmarked from "./Bookmarked";
 import SpentTime from "./SpentTime";
@@ -7,6 +13,7 @@ const BlogSite = () => {
   const [blogData, setBlogData] = useState([]);
   const [spendingTime, setSpendingTime] = useState(0);
   const [bookMark, setBookMark] = useState([]);
+  const notify = () => toast("You Have Already Bookmarked This Blog!");
 
   useEffect(() => {
     const URL = "blog_posts.json";
@@ -21,7 +28,16 @@ const BlogSite = () => {
   };
 
   const handleBookMark = (bookmarked) => {
-    setBookMark([...bookMark, bookmarked]);
+    const isExit = bookMark.find((element) => element.id === bookmarked.id);
+    if (isExit) {
+      return Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "You Have Already Bookmarked This Blog!",
+      });
+    } else {
+      setBookMark([...bookMark, bookmarked]);
+    }
   };
 
   return (
